@@ -161,4 +161,4 @@ module.exports = (client, message, new_message, player1_id, player2_id, turn_id,
       .then(console.log('Successful tie'))
       .catch(console.error);
       return true;
-    }
+    });
